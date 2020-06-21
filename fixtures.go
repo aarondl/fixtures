@@ -26,7 +26,7 @@ var (
 )
 
 func init() {
-	flag.BoolVar(&flagUpdateFixtures, "fixtures", false, "Update fixtures")
+	flag.BoolVar(&flagUpdateFixtures, "fix", false, "Update fixtures")
 }
 
 // JSON takes an object as input and jsonifies it to create a fixture.
